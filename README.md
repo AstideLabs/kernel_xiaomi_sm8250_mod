@@ -52,7 +52,7 @@ Other Features/Improvement of this Kernel:
 
 所以仍然感谢 [@UtsavBalar1231](https://github.com/UtsavBalar1231/)！
 
-维护和编译这个内核的主要目的是想修复[电量卡在1%的问题](https://github.com/liyafe1997/Xiaomi-fix-battery-one-percent)，以及提供带[ReSukiSU](https://github.com/ReSukiSU/ReSukiSU)(一个ReSukiSU的fork) & SuSFS的预编译好的内核（请自行安装[ReSukiSU的管理器](https://github.com/ReSukiSU/ReSukiSU/actions)）。以及再提供一个更直观和易用的编译脚本和README，方便大家自己折腾和修改，编译自己的内核！
+维护和编译这个内核的主要目的是想修复[电量卡在1%的问题](https://github.com/liyafe1997/Xiaomi-fix-battery-one-percent)，以及提供带[ReSukiSU](https://github.com/ReSukiSU/ReSukiSU)(一个SukiSU的fork) & SuSFS的预编译好的内核（请自行安装[ReSukiSU的管理器](https://github.com/ReSukiSU/ReSukiSU/actions)）。以及再提供一个更直观和易用的编译脚本和README，方便大家自己折腾和修改，编译自己的内核！
 
 （其中受“1%电量bug”影响的设备有：alioth, apollo, lmi, thyme, umi, pipa，因为它们都用了PM8150即高通的GEN4电量计。其它不受此bug影响的设备大可把这个内核当成个带SukiSU & SUSFS的官核平替，如果你想找一个带KernelSU的内核的话。并且据大家测试，该内核不带KernelSU版本可以应用[APatch](https://github.com/bmax121/APatch)）
 
